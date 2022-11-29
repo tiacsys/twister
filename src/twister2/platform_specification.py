@@ -7,7 +7,7 @@ from typing import Generator
 
 import pytest
 import yaml
-from marshmallow import fields, Schema, validate
+from marshmallow import Schema, fields, validate
 
 from twister2.exceptions import TwisterConfigurationException
 from twister2.helper import string_to_set

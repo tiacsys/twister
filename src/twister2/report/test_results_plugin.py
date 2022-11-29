@@ -13,13 +13,13 @@ from pytest_subtests import SubTestReport
 
 from twister2.report.base_report_writer import BaseReportWriter
 from twister2.report.helper import (
+    get_item_platform,
     get_item_platform_allow,
+    get_item_quarantine,
     get_item_tags,
     get_item_type,
     get_suite_name,
     get_test_name,
-    get_item_platform,
-    get_item_quarantine
 )
 
 

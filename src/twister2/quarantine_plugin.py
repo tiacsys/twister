@@ -1,15 +1,15 @@
 from __future__ import annotations
 
-import pytest
 import logging
-
-from pathlib import Path
-from yaml import safe_load
-from marshmallow import Schema, fields, ValidationError
 from dataclasses import dataclass, field
+from pathlib import Path
 
-from twister2.report.helper import get_test_name, get_item_platform
+import pytest
+from marshmallow import Schema, ValidationError, fields
+from yaml import safe_load
+
 from twister2.exceptions import TwisterConfigurationException
+from twister2.report.helper import get_item_platform, get_test_name
 
 logger = logging.getLogger(__name__)
 

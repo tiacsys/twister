@@ -11,14 +11,14 @@ from _pytest.terminal import TerminalReporter
 
 from twister2.report.base_report_writer import BaseReportWriter
 from twister2.report.helper import (
+    get_item_platform,
     get_item_platform_allow,
+    get_item_quarantine,
     get_item_tags,
     get_item_type,
     get_suite_name,
     get_test_name,
     get_test_path,
-    get_item_platform,
-    get_item_quarantine
 )
 
 logger = logging.getLogger(__name__)

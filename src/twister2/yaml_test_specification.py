@@ -4,7 +4,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Optional
 
-from twister2.helper import string_to_set, string_to_list
+from twister2.helper import string_to_list, string_to_set
 
 
 @dataclass

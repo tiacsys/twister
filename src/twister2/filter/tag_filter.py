@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from typing import Set, List, Sequence
+from typing import List, Sequence, Set
 
 import pytest
 

@@ -6,10 +6,10 @@ from __future__ import annotations
 import logging
 import re
 import time
-from typing import Iterator, Generator
+from typing import Generator, Iterator
 
 from twister2.exceptions import TwisterFatalError
-from twister2.log_parser.log_parser_abstract import SubTestResult, LogParserAbstract
+from twister2.log_parser.log_parser_abstract import LogParserAbstract, SubTestResult
 
 PROJECT_EXECUTION_SUCCESSFUL: str = 'PROJECT EXECUTION SUCCESSFUL'
 PROJECT_EXECUTION_FAILED: str = 'PROJECT EXECUTION FAILED'

@@ -2,7 +2,7 @@ import argparse
 import os
 
 from twister2.platform_specification import search_platforms
-from twister2.scripts.hardware_map import scan, write_to_file, print_hardware_map
+from twister2.scripts.hardware_map import print_hardware_map, scan, write_to_file
 
 
 def main() -> int:

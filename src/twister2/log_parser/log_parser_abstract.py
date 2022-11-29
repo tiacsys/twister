@@ -7,9 +7,9 @@ from typing import Generator, Iterator
 
 
 class LogParserState(str, enum.Enum):
-    UNKNOWN = "UNKNOWN"
-    FAILED = "FAILED"
-    PASSED = "PASSED"
+    UNKNOWN = 'UNKNOWN'
+    FAILED = 'FAILED'
+    PASSED = 'PASSED'
 
 
 class LogParserAbstract(abc.ABC):

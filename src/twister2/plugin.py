@@ -8,6 +8,7 @@ from twister2.filter.filter_plugin import FilterPlugin
 from twister2.filter.tag_filter import TagFilter
 from twister2.log import configure_logging
 from twister2.platform_specification import search_platforms
+from twister2.quarantine_plugin import QuarantinePlugin
 from twister2.report.test_plan_csv import CsvTestPlan
 from twister2.report.test_plan_json import JsonTestPlan
 from twister2.report.test_plan_plugin import TestPlanPlugin
@@ -15,7 +16,6 @@ from twister2.report.test_results_json import JsonResultsReport
 from twister2.report.test_results_plugin import TestResultsPlugin
 from twister2.twister_config import TwisterConfig
 from twister2.yaml_file import YamlFile
-from twister2.quarantine_plugin import QuarantinePlugin
 
 SAMPLE_FILENAME: str = 'sample.yaml'
 TESTCASE_FILENAME: str = 'testcase.yaml'

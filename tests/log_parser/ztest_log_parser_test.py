@@ -1,6 +1,7 @@
 from pathlib import Path
 
 import pytest
+
 from twister2.exceptions import TwisterFatalError
 from twister2.log_parser import SubTestStatus
 from twister2.log_parser.ztest_log_parser import ZtestLogParser
